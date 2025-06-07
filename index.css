@@ -1,19 +1,19 @@
-
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
+    background-color: #ffffff;
+    color: #222222;
 }
 
-
 header {
-    background-color: #f0f0f0;
+    background-color: #003366; /* Đậm hơn để tương phản */
+    color: #ffffff; /* Chữ trắng nổi bật */
     padding: 10px;
     text-align: center;
 }
 
-
 nav {
-    background-color: #333;
+    background-color: #222846; /* Đậm hơn để chữ trắng nổi bật */
     overflow: hidden;
 }
 
@@ -23,7 +23,6 @@ nav ul {
     padding: 0;
 }
 
-
 nav li {
     float: left;
     width: 100px;
@@ -32,26 +31,27 @@ nav li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #ffffff;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #555;
+    background-color: #0066cc; /* Xanh dương sáng, dễ nhìn */
+    color: #ffffff;
 }
-
 
 main {
     background-color: #ffffff;
     font-size: 18px;
     padding: 20px;
     line-height: 1.6;
+    color: #222222;
 }
 
-
 footer {
-    background-color: #f0f0f0;
+    background-color: #003366; /* Đậm hơn */
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -60,12 +60,16 @@ footer {
 }
 
 h1 {
-    text-align: center; 
-    font-family: "Times New Roman", serif; 
-    color: #336699;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    color: #ffcc00; /* Vàng nổi bật trên nền xanh đậm */
 }
 
+h2 {
+    color: #222222;
+}
 
 p {
     line-height: 1.8;
+    color: #222222;
 }
